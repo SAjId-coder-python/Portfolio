@@ -131,7 +131,7 @@ nav ul li a:hover::after{
 }
 .services-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     color: white;
     grid-gap:40px;
     margin-top: 50px;
@@ -182,7 +182,7 @@ nav ul li a:hover::after{
 }
 .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
     grid-gap:40px;
     margin-top: 50px;
 }
@@ -346,6 +346,7 @@ nav .fa-bars{
 }
 @media only screen and (max-width:840px){
     #header{
+        height: 80vh;
         background-image:linear-gradient(rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.1) 50%,rgba(0,0,0) 100%), url(images/phone-background.png);
     }
     .header-text{
